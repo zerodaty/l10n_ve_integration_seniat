@@ -1,36 +1,33 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "l10n_ve_integration_cedula",
+    'name': "l10n_ve_data_cne",
 
     'summary': 
         """
-        Autocompleta los datos de contactos (partners) utilizando una API 
-        externa a partir de la Cédula de Identidad o RIF.
+        Módulo base que almacena los datos del Registro Civil y la división
+        geopolítica de Venezuela para ser consumido por otros módulos.
         """,
 
     'description': 
         """
-        Autocompleta los datos de contactos (partners) utilizando una API
-        externa a partir de la Cédula de Identidad o RIF.
+        - Crea los modelos para Estados, Municipios, Parroquias, Centros CNE.
+        - Crea el modelo principal para el Registro Civil.
+        - No contiene vistas de menú, es un módulo técnico de base.
         """,
 
     'author': "Frany Velasquez",
     'license': 'AGPL-3',
     'website': "https://github.com/zerodaty/l10n_ve_integration_cedula",
-
-    'category': 'Localization/Venezuela',
+    'category': 'Localization',
     'version': '18.0.1.0.0',
 
     'depends': [
-        'base',
-        'contacts'
+        'base'
     ],
 
     # always loaded
     'data': [
         'security/ir.model.access.csv',
-        'views/views.xml',
-        'views/templates.xml',
     ],
     
     'installable': True,

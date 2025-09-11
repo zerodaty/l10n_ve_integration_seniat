@@ -1,2 +1,6 @@
 id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
-access_res_partner_user,access_res_partner_user,model_res_partner,base.group_user,1,1,1,1
+access_l10n_ve_estado,l10n_ve.estado,model_l10n_ve_estado,base.group_user,1,0,0,0
+access_l10n_ve_municipio,l10n_ve.municipio,model_l10n_ve_municipio,base.group_user,1,0,0,0
+access_l10n_ve_parroquia,l10n_ve.parroquia,model_l10n_ve_parroquia,base.group_user,1,0,0,0
+access_l10n_ve_centro_cne,l10n_ve.centro_cne,model_l10n_ve_centro_cne,base.group_user,1,0,0,0
+access_l10n_ve_registro_civil,l10n_ve.registro_civil,model_l10n_ve_registro_civil,base.group_user,1,0,0,0
