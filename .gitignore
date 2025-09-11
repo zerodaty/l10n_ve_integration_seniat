@@ -1,0 +1,13 @@
+# Archivos compilados de Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Archivos temporales de editores
+*.swp
+.vscode/
+.idea/
+
+# Logs y bases de datos locales
+*.log
+*.sqlite3

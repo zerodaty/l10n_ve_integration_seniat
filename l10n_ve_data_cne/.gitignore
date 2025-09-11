@@ -1,0 +1,24 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Archivos de distribución / empaquetado
+*.egg-info/
+dist/
+build/
+
+# Archivos de configuración de editores de código populares
+.vscode/
+.idea/
+*.swp
+
+# Archivos de registro (logs)
+*.log
+
+# Bases de datos SQLite
+*.sqlite3
+
+# Archivos de configuración local (si los tuvieras)
+local.conf
