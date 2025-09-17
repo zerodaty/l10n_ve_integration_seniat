@@ -44,6 +44,6 @@ El objetivo es simple: **eficiencia, precisión y autonomía.** Al introducir un
 
 ## Autor
 
-*   **Franyer Velásquez**
+*   **Frany Velásquez**
 *   **GitHub:** [@zerodaty](https://github.com/zerodaty)
 *   **LinkedIn:** [https://www.linkedin.com/in/franyvelas/]
